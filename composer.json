@@ -1,0 +1,23 @@
+{
+    "name": "argo22/testrealm",
+    "description": "simple test environment",
+    "authors": [
+        {
+            "name": "Argo22",
+            "email": "info@argo22.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "require": {
+		"mockery/mockery": "~0.9.4",
+        "nette/tester": "~1.7"
+    },
+    "scripts": {
+        "test": "vendor/bin/tester -p php -c ./tests/php.ini tests"
+    },
+    "type": "project"
+}
