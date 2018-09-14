@@ -4,7 +4,7 @@ namespace app;
 
 class ExampleClass
 {
-    /** @var mixed */
+    /** @var string */
     protected $variable;
 
     /**
@@ -21,9 +21,9 @@ class ExampleClass
 
 
     /**
-     * Common setter...
+     * Common getter...
      *
-     * @param  string   $data
+     * @return  string
      */
     public function getVariable(): string
     {
